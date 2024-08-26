@@ -150,6 +150,58 @@ en caso que no sea posible, se debe mantener el saludo como se encuentra actualm
 
   ![PruebaCompuesto](https://github.com/user-attachments/assets/1ee36939-7397-4a12-8f86-9b09043946a8)
 
+
+Mejorando el código (ver implementación en App.java) ya no es necesario incluir comillas y ahora es posible incluir más de un nombre y un segundo apellido. De hecho para una cantidad cualquiera de palabras.
+
+  ![image](https://github.com/user-attachments/assets/dca6fd1d-b622-4c0a-89a5-e18e7d9a7927)
+
+## PRUEBAS - APLICACIÓN
+
+- Sin parámetros
+
+
+  ![image](https://github.com/user-attachments/assets/d6229c36-fa9d-41a7-b6c1-db74ae0ec8f5)
+
+
+  
+- Parámetro: qwerty
+
+  ![image](https://github.com/user-attachments/assets/bbc53e1f-8dfb-4a7d-97bc-f1200c202f98)
+
+
+  
+- Parámetro: pentagon
+
+  ![image](https://github.com/user-attachments/assets/d28e2cbe-a0e9-4aab-a065-f32c3ed3c7d4)
+
+  
+  
+- Parámetro: Hexagon
+
+  ![image](https://github.com/user-attachments/assets/00283529-72cc-4860-be93-69712af82ea5)
+
+
+- ***¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?***
+  
+
+  ◆ Para la primera prueba (sin parámetros) el mensaje mostrado en consola es el esperado ya que no se especificó el tipo de figura.
+  
+
+  ◆ En la segunda prueba también es correcto el mensaje mostrado porque el parámetro qwerty al no ser una figura válida se indica tal información en la consola.
+
+
+  ◆ En la tercera prueba se esperaría:
+
+  ```sh
+  Successfully created a Pentagon with 5 sides
+  ```
+
+  No ocurrió lo esperado ya que el código actual es case-sensitive.
+
+
+  ◆ La cuarta prueba se ejecuta y funciona correctamente, lo que indica que el tipo de figura especificado cumple con los requisitos.
+
+
 ## GITIGNORE
 ### ¿Para qué sirve gitigonre?
 
