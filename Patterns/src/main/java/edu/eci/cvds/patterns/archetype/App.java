@@ -1,17 +1,30 @@
 package edu.eci.cvds.patterns.archetype;
 
 /**
- * Hello world!
- *
+ * The App class demonstrates a simple console application that prints a greeting message.
  */
-public class App
-{
-    public static void main( String[] args )
-    {
-        if (args.length > 0) {
-            System.out.println("Hello"+" "+args[0]+"!");
+public class App {
+
+    /**
+     * The entry point of the application. It processes command-line arguments
+     * to construct and print a greeting message.
+     *
+     * @param args command-line arguments; if present, they are used to personalize the greeting.
+     */
+    public static void main(String[] args) {
+        StringBuilder greetingName = new StringBuilder();
+
+        for (String arg : args) {
+            greetingName.append(arg).append(" ");
+        }
+
+        String resultMessage = greetingName.toString().trim();
+
+        if (resultMessage.isEmpty()) {
+            System.out.println("Hello world!");
         } else {
-            System.out.println("Hello World!");
+            System.out.println("Hello " + resultMessage + "!");
         }
     }
 }
+
