@@ -52,17 +52,18 @@
 
 - ***Busque cómo ejecutar desde línea de comandos el objetivo "generate" del plugin "archetype".***
 
-    Se usó el comando anteriormente mencionado y se usaron los parámetros especificados para la creación del proyecto.
+  Se usó el comando anteriormente mencionado y se usaron los parámetros especificados para la creación del proyecto.
 
-    [Proyecto Maven](https://drive.google.com/uc?export=view&id=1JtM6DZRGB5-e_Y_W5GW6JyZOMgKMDAhQ)
-
+  ![ProyectoMaven](https://github.com/user-attachments/assets/8e4c1a40-9b0c-4adb-a298-da0b7a67272e)
+  
 
 - ***Estructura del proyecto:***
   
   Se cambió al directorio  `Patterns` y se ejecutó el comando `tree` para ver el conjunto de archivos y directorios creados 
   por el comando `mvn`. 
-  
-  [Estructura](https://drive.google.com/uc?export=view&id=1UXObgTffRdKbguzA9ooxthTxAzLeMhVr)
+
+  ![Estructura](https://github.com/user-attachments/assets/6c456431-1e15-4772-8888-5d34b0b69eea)
+
 
 ## COMPILAR Y EJECUTAR
 - ***Busque cuál es el objetivo del parámetro "package" y qué otros parámetros se podrían enviar al comando "mvn".***
@@ -94,15 +95,17 @@ App.java como parámetro en "mainClass".***
   ```
   Después de ejecutar este comando se muestra la siguiente salida:
 
-  [HelloWorld](https://drive.google.com/uc?export=view&id=15wJkWuStISJJj2dH8tKRjfH2g5umS02R)
+  ![HelloWorld](https://github.com/user-attachments/assets/be1a7086-ea55-45cd-8e55-781d2269fe7c)
 
 
 - ***Realice el cambio en la clase App.java para crear un saludo personalizado, basado en los parámetros de entrada a la 
 aplicación.Utilizar la primera posición del parámetro que llega al método "main" para realizar el saludo personalizado,
 en caso que no sea posible, se debe mantener el saludo como se encuentra actualmente:***
 
-  [SaludoPersonalizado](https://drive.google.com/uc?export=view&id=1QiW_ACw__wRRDBLHmERxP6rchhMgqB1G)
-
+  Se modificó la clase main de la siguiente forma:
+  
+  ![ModificacionMain](https://github.com/user-attachments/assets/b9d61369-ed35-425a-9aed-f8e59125d7f9)
+  
 
 - ***Buscar cómo enviar parámetros.***
   
@@ -116,18 +119,19 @@ en caso que no sea posible, se debe mantener el saludo como se encuentra actualm
 
 - ***Ejecutar nuevamente la clase desde línea de comandos y verificar la salida: Hello World!***
 
-  [SaludoPostCambio](https://drive.google.com/uc?export=view&id=19ioiibvTgNZ66CKTmLvjFboFVuwhGdzK)
+  ![SaludoPostCambio](https://github.com/user-attachments/assets/e71ef5ce-413d-4efe-81ac-a2467832585c)
 
 
 - ***Ejecutar la clase desde línea de comandos enviando su nombre como parámetro y verificar la salida. 
   Ej: Hello Pepito!***
 
-  [PruebaNombre](https://drive.google.com/uc?export=view&id=1qVZeKAmbLxot57QBuve1HiLUzoYCaVMh)
+  ![PruebaNombre](https://github.com/user-attachments/assets/0fc91613-a650-47f0-a123-c282e2eb0e20)
 
 
 - ***Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?***
 
-  [PruebaApellido](https://drive.google.com/uc?export=view&id=1tIgSZoZMTXbLnGU7419mPjMYETdnVppM)
+  ![PruebaApellido](https://github.com/user-attachments/assets/d2254fac-3f4e-4529-a81f-470d44cf2420)
+
 
   Como se evidencia en la imagen lo que sucedió fue que solo imprimió el nombre y no el apellido.
   
@@ -142,9 +146,9 @@ en caso que no sea posible, se debe mantener el saludo como se encuentra actualm
   ```
 
 
-- ***Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez!*** 
+- ***Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez!***
 
-  [PruebaCompuesto](https://drive.google.com/uc?export=view&id=1uy5RtfPCJt4m-Gq9v0_uCOUQWEfItHjg)
+  ![PruebaCompuesto](https://github.com/user-attachments/assets/1ee36939-7397-4a12-8f86-9b09043946a8)
 
 ## GITIGNORE
 ### ¿Para qué sirve gitigonre?
