@@ -155,6 +155,19 @@ Mejorando el código (ver implementación en App.java) ya no es necesario inclui
 
   ![image](https://github.com/user-attachments/assets/dca6fd1d-b622-4c0a-89a5-e18e7d9a7927)
 
+
+## IMPLEMENTACIÓN DEL PATRÓN SIMPLE FACTORY EN LA APLICACIÓN
+
+
+***¿Cuál fábrica? ¿Cuál es mejor?***
+
+El patrón Simple Factory se elige en este caso porque proporciona una forma centralizada y simple de crear instancias de diferentes formas geométricas.
+Aunque actualmente ShapeFactory maneja solo un conjunto limitado de formas (Triangle, Quadrilateral, Pentagon, Hexagon), es fácil extenderla para soportar nuevas figuras en el futuro, considerando el uso de la instrucción switch - case.
+Otros patrones como Factory Method o Abstract Factory pueden ofrecer más flexibilidad, pero su complejidad adicional no es necesaria para el caso actual, donde la creación de formas geométricas es directa y sin requerimientos adicionales complejos.
+
+
+
+
 ## PRUEBAS - APLICACIÓN
 
 - Sin parámetros
@@ -200,6 +213,7 @@ Mejorando el código (ver implementación en App.java) ya no es necesario inclui
 
 
   ◆ La cuarta prueba se ejecuta y funciona correctamente, lo que indica que el tipo de figura especificado cumple con los requisitos.
+
 
 
 ## GITIGNORE
