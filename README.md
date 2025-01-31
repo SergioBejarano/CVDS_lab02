@@ -55,7 +55,9 @@
   Se usó el comando anteriormente mencionado y se usaron los parámetros especificados para la creación del proyecto.
 
   ![ProyectoMaven](https://github.com/user-attachments/assets/8e4c1a40-9b0c-4adb-a298-da0b7a67272e)
-  
+
+  ![pruebaspaGualdron](https://github.com/user-attachments/assets/ea1fee00-9bbc-4702-8dff-ae211d7e4d5d)
+
 
 - ***Estructura del proyecto:***
   
