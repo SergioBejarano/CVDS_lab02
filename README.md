@@ -49,7 +49,6 @@
     - Paquete(s).
     - Arquetipo y su version.
 
-  ![SergioConLlamas](https://github.com/user-attachments/assets/c7c52e84-5955-4763-864a-36cf74c3c5b0)
 
 
 - ***Busque cómo ejecutar desde línea de comandos el objetivo "generate" del plugin "archetype".***
