@@ -56,7 +56,8 @@
 
   ![ProyectoMaven](https://github.com/user-attachments/assets/8e4c1a40-9b0c-4adb-a298-da0b7a67272e)
 
-  ![pruebaspaGualdron](https://github.com/user-attachments/assets/ea1fee00-9bbc-4702-8dff-ae211d7e4d5d)
+  
+![Sergio](https://github.com/user-attachments/assets/79d7c70f-12f4-48c3-b436-cf892449ce74)
 
 
 - ***Estructura del proyecto:***
